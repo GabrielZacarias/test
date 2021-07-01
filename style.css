@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+    border: 1px solid black;
+    background: black;
+    padding: 2rem;
+	flex: 1 1 auto;
+}
+
+.content p{
+    color: orange;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+.content button {
+    padding: 1.3rem 2rem;
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+}
